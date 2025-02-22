@@ -11,6 +11,7 @@ public class WebBase {
     @BeforeMethod
     public void setUp(){
         Driver.initDriverForWeb();
+       // Driver
     }
 
     @AfterMethod
